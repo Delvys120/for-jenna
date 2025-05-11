@@ -1,0 +1,451 @@
+<!--  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Jenna ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Georgia', serif;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    .container {
+      padding: 50px 20px;
+    }
+
+    h1 {
+      font-family: 'Sacramento', cursive;
+      font-size: 4em;
+      color: #ff5c8f;
+      margin-bottom: 20px;
+      animation: slideIn 2s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    p {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    .heart {
+      font-size: 2.5em;
+      color: red;
+      animation: beat 1s infinite alternate;
+      margin-bottom: 30px;
+    }
+
+    @keyframes beat {
+      from { transform: scale(1); }
+      to { transform: scale(1.2); }
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      aspect-ratio: 4 / 3;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      text-decoration: none;
+      background-color: #ff5c8f;
+      color: white;
+      border-radius: 30px;
+      transition: background-color 0.3s ease;
+      margin-top: 30px;
+    }
+
+    .button:hover {
+      background-color: #ff3b75;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="love-song.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="container">
+    <h1>For Jenna ❤️</h1>
+    <p>
+      Hi babe. I know I can’t always buy you things, but I made you this instead.<br><br>
+      You mean the world to me. Your laugh, your eyes, the way you make everything better — I love it all.<br><br>
+      Every day with you is a blessing. This page is just a little digital love letter to remind you:<br>
+      <strong>I love you endlessly.</strong>
+    </p>
+    <div class="heart">💖</div>
+
+    <div class="gallery">
+      <img src="us1.jpg" alt="Us 1" />
+      <img src="us2.jpg" alt="Us 2" />
+      <img src="us3.jpg" alt="Us 3" />
+      <img src="us4.jpg" alt="Us 4" />
+      <img src="us5.jpg" alt="Us 5" />
+      <img src="us6.jpg" alt="Us 6" />
+      <img src="us7.jpg" alt="Us 7" />
+      <img src="us8.jpg" alt="Us 8" />
+    
+    </div>
+    
+    <a href="#special-message" class="button">Click for a Special Surprise ✨</a>
+
+    <footer>Hand-coded with love 💕 - By Delvys</footer>
+  </div>
+</body>
+</html> 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For Jenna ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Georgia', serif;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    .container {
+      padding: 50px 20px;
+    }
+
+    h1 {
+      font-family: 'Sacramento', cursive;
+      font-size: 4em;
+      color: #ff5c8f;
+      margin-bottom: 20px;
+      animation: slideIn 2s ease-out;
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(-50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .message-box {
+      background-color: rgba(255, 192, 203, 0.85);
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 700px;
+      margin: 0 auto 40px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    p {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.2em;
+      line-height: 1.6;
+      font-weight: 300;
+      margin: 0;
+    }
+
+    .heart {
+      font-size: 2.5em;
+      color: red;
+      animation: beat 1s infinite alternate;
+      margin-bottom: 30px;
+    }
+
+    @keyframes beat {
+      from { transform: scale(1); }
+      to { transform: scale(1.2); }
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      aspect-ratio: 4 / 3;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      text-decoration: none;
+      background-color: #ff5c8f;
+      color: white;
+      border-radius: 30px;
+      transition: background-color 0.3s ease;
+      margin-top: 30px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #ff3b75;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    #special-message {
+      display: none;
+      margin-top: 40px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 2px dashed #ff5c8f;
+      padding: 30px;
+      border-radius: 20px;
+      animation: fadeIn 1s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Game styling */
+    #game-container {
+      position: relative;
+      height: 300px;
+      margin-top: 50px;
+      overflow: hidden;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      border: 2px dashed pink;
+    }
+
+    .falling-heart {
+      position: absolute;
+      font-size: 2em;
+      color: #ff5c8f;
+      user-select: none;
+      cursor: pointer;
+      animation: fall linear;
+    }
+
+    @keyframes fall {
+      0% { top: -40px; opacity: 1; }
+      100% { top: 100%; opacity: 0; }
+    }
+
+    #score-board {
+      font-size: 1.3em;
+      margin: 20px 0;
+      color: #ffadd1;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Bubbles */
+    #bubbles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 10;
+    }
+
+    .bubble {
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 50%;
+      animation: bubble 10s infinite ease-in-out;
+    }
+
+    @keyframes bubble {
+      from {
+        transform: translateY(100%) scale(0.5);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(-100%) scale(1);
+        opacity: 1;
+      }
+    }
+
+    /* Glowing Hearts on Hover */
+    .falling-heart:hover {
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); color: #ff5c8f; }
+      50% { transform: scale(1.2); color: #ff79a6; }
+      100% { transform: scale(1); color: #ff5c8f; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Music -->
+  <audio autoplay loop>
+    <source src="love-song.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="container">
+    <h1>For Jenna ❤️</h1>
+
+    <div class="message-box">
+      <p>
+        Hi babe. I know I can’t always buy you things, but I made you this instead.<br><br>
+        You mean the world to me. Your laugh, your eyes, the way you make everything better — I love it all.<br><br>
+        Every day with you is a blessing. This page is just a little digital love letter to remind you:<br>
+        <strong>I love you endlessly.</strong>
+      </p>
+    </div>
+
+    <div class="heart">💖</div>
+
+    <div class="gallery">
+      <img src="us1.jpg" alt="Us 1" />
+      <img src="us2.jpg" alt="Us 2" />
+      <img src="us3.jpg" alt="Us 3" />
+      <img src="us4.jpg" alt="Us 4" />
+      <img src="us5.jpg" alt="Us 5" />
+      <img src="us6.jpg" alt="Us 6" />
+      <img src="us7.jpg" alt="Us 7" />
+      <img src="us8.jpg" alt="Us 8" />
+      <img src="us9.jpg" alt="Us 9" />
+      <img src="us10.jpg" alt="Us 10" />
+      <img src="us11.jpg" alt="Us 11" />
+      <img src="us12.jpg" alt="Us 12" />
+      <img src="us13.jpg" alt="Us 13" />
+    </div>
+
+    <button class="button" onclick="showSurprise()">Click for a Special Surprise ✨</button>
+
+    <div id="special-message">
+      <p style="font-size: 1.4em;">
+        🥹 Surprise!<br><br>
+        <br><br>
+        You're my home, my heart, my everything. 💕<br>
+        <strong>Forever yours,<br>Delvys</strong>
+      </p>
+    </div>
+
+    <!-- Heart Game Section -->
+    <div id="score-board">Catch the Hearts 💗 Score: <span id="score">0</span></div>
+    <div id="game-container"></div>
+
+    <footer>Hand-coded with love 💕 - By Delvys</footer>
+  </div>
+
+  <div id="bubbles"></div>
+
+  <script>
+    function showSurprise() {
+      const surprise = document.getElementById("special-message");
+      surprise.style.display = "block";
+      surprise.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Heart Catching Game
+    const gameContainer = document.getElementById("game-container");
+    const scoreDisplay = document.getElementById("score");
+    let score = 0;
+    const popSound = new Audio('pop-sound.mp3'); // Add a pop sound for the hearts
+
+    function createHeart() {
+      const heart = document.createElement("div");
+      heart.classList.add("falling-heart");
+      heart.textContent = "💗";
+      heart.style.left = Math.random() * 90 + "%";
+      heart.style.animationDuration = (Math.random() * 2 + 3) + "s";
+      gameContainer.appendChild(heart);
+
+      heart.addEventListener("click", () => {
+        popSound.play();
+        heart.remove();
+        score++;
+        scoreDisplay.textContent = score;
+      });
+
+      setTimeout(() => heart.remove(), 6000); // Remove heart after 6 seconds
+    }
+
+    setInterval(createHeart, 1000); // Create a new heart every second
+
+    // Bubble effect
+    function createBubble() {
+      const bubble = document.createElement("div");
+      bubble.classList.add("bubble");
+      bubble.style.width = Math.random() * 50 + 30 + "px";
+      bubble.style.height = bubble.style.width;
+      bubble.style.left = Math.random() * 100 + "%";
+      bubble.style.animationDuration = Math.random() * 10 + 5 + "s";
+      document.getElementById("bubbles").appendChild(bubble);
+
+      setTimeout(() => bubble.remove(), 10000);
+    }
+
+    setInterval(createBubble, 500); // Create a new bubble every 500ms
+  </script>
+</body>
+</html>
